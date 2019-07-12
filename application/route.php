@@ -11,6 +11,7 @@
 use think\Route;
 Route::bind('index');
 Route::get('xx/:id','xx.xx/find');
+Route::get('xx/:id','xx.xx/find');
 Route::get('blog/:id','Blog.Blog/find');
 Route::get('route','Route.Route/index');
 Route::get('user','User/index');
